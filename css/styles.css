@@ -1,0 +1,107 @@
+html,
+body {
+    background-color: #e5a7a7;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+.container-flex {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.title-pizza {
+    color: #c70505;
+}
+
+.table-container{
+    overflow-x: auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+tr{
+    width: 300px;
+}
+
+td{
+    padding: 5px;
+}
+
+.table {
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    align-items: center;
+}
+
+.pizza-image {
+    width: 250px;
+    height: 300px;
+}
+
+.content{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #3b07a3;
+}
+
+.title{
+    font-weight: bold;
+}
+
